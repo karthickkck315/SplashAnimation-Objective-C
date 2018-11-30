@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qgS-OD-OL7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intro Pages-->
+        <scene sceneID="NRe-md-BC2">
+            <objects>
+                <viewController storyboardIdentifier="IntroPages" id="qgS-OD-OL7" customClass="IntroPages" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Rc-kB-16s"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qpd-N6-ZTy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1v2-iQ-sZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fky-5K-dth"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="01F-82-noE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJi-Yb-9Iv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26450" y="-1194"/>
+        </scene>
+    </scenes>
+</document>
